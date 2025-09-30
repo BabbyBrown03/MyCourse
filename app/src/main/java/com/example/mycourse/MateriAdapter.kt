@@ -21,6 +21,9 @@ class MateriAdapter(private val listMateri: List<Materi>,
             binding.judul.text = materi.judul
             binding.deskripsi.text = materi.deskripsi
             binding.tanggal.text = materi.tanggal
+            binding.root.setOnClickListener {
+                onItemClick(materi)
+            }
         }
     }
 
