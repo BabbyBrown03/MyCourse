@@ -17,7 +17,16 @@ class MateriFragment : Fragment() {
     private lateinit var adapter: MateriAdapter
 
     private val materiList = listOf(
-        Materi("APA AJA DAH","SESUAI KEYAKINAN","14 MARET 2006")
+        Materi("Pengenalan Android", "Dasar-dasar Android Studio dan struktur project", "14 Maret 2006"),
+        Materi("Activity dan Lifecycle", "Membahas siklus hidup Activity", "20 Mei 2008"),
+        Materi("Intent dan Navigasi", "Cara berpindah antar Activity menggunakan Intent", "12 Januari 2010"),
+        Materi("RecyclerView", "Menampilkan list data secara efisien", "7 Juli 2012"),
+        Materi("Fragment", "Membuat UI modular dengan Fragment", "18 September 2014"),
+        Materi("View Binding & Data Binding", "Menghubungkan UI dengan data lebih mudah", "25 Februari 2016"),
+        Materi("Room Database", "Penyimpanan data lokal dengan Room", "3 November 2017"),
+        Materi("Retrofit", "Mengambil data dari API menggunakan Retrofit", "9 April 2019"),
+        Materi("MVVM Architecture", "Penerapan arsitektur MVVM di Android", "15 Agustus 2021"),
+        Materi("Jetpack Compose", "Membuat UI modern deklaratif dengan Compose", "1 Januari 2023")
     )
 
     override fun onCreateView(
